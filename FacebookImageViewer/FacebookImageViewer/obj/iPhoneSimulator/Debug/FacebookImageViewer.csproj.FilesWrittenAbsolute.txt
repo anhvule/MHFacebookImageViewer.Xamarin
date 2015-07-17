@@ -1,0 +1,13 @@
+/Users/vule/Documents/Workspace/MHFacebookImageViewer.Xamarin/FacebookImageViewer/FacebookImageViewer/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/vule/Documents/Workspace/MHFacebookImageViewer.Xamarin/FacebookImageViewer/FacebookImageViewer/obj/iPhoneSimulator/Debug/ibtool/ImageViewer.nib
+/Users/vule/Documents/Workspace/MHFacebookImageViewer.Xamarin/FacebookImageViewer/FacebookImageViewer/obj/iPhoneSimulator/Debug/ibtool/ImageViewerViewController.nib
+/Users/vule/Documents/Workspace/MHFacebookImageViewer.Xamarin/FacebookImageViewer/FacebookImageViewer/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.nib
+/Users/vule/Documents/Workspace/MHFacebookImageViewer.Xamarin/FacebookImageViewer/FacebookImageViewer/obj/iPhoneSimulator/Debug/actool/partial-info.plist
+/Users/vule/Documents/Workspace/MHFacebookImageViewer.Xamarin/FacebookImageViewer/FacebookImageViewer/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
+/Users/vule/Documents/Workspace/MHFacebookImageViewer.Xamarin/FacebookImageViewer/FacebookImageViewer/obj/iPhoneSimulator/Debug/
+/Users/vule/Documents/Workspace/MHFacebookImageViewer.Xamarin/FacebookImageViewer/FacebookImageViewer/bin/iPhoneSimulator/Debug/FacebookImageViewer.exe.mdb
+/Users/vule/Documents/Workspace/MHFacebookImageViewer.Xamarin/FacebookImageViewer/FacebookImageViewer/bin/iPhoneSimulator/Debug/FacebookImageViewer.exe
+/Users/vule/Documents/Workspace/MHFacebookImageViewer.Xamarin/FacebookImageViewer/FacebookImageViewer/obj/iPhoneSimulator/Debug/FacebookImageViewer.exe
+/Users/vule/Documents/Workspace/MHFacebookImageViewer.Xamarin/FacebookImageViewer/FacebookImageViewer/obj/iPhoneSimulator/Debug/FacebookImageViewer.exe.mdb
+/Users/vule/Documents/Workspace/MHFacebookImageViewer.Xamarin/FacebookImageViewer/FacebookImageViewer/obj/iPhoneSimulator/Debug/icon_done.png
+/Users/vule/Documents/Workspace/MHFacebookImageViewer.Xamarin/FacebookImageViewer/FacebookImageViewer/obj/iPhoneSimulator/Debug/icon_done@2x.png

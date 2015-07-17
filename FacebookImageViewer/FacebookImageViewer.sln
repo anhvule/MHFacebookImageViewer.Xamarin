@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacebookImageViewer", "FacebookImageViewer\FacebookImageViewer.csproj", "{ACB876A1-1DE9-4CCD-B984-403C4E89FE7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACB876A1-1DE9-4CCD-B984-403C4E89FE7D}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{ACB876A1-1DE9-4CCD-B984-403C4E89FE7D}.Debug|iPhone.Build.0 = Debug|iPhone
+		{ACB876A1-1DE9-4CCD-B984-403C4E89FE7D}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{ACB876A1-1DE9-4CCD-B984-403C4E89FE7D}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{ACB876A1-1DE9-4CCD-B984-403C4E89FE7D}.Release|iPhone.ActiveCfg = Release|iPhone
+		{ACB876A1-1DE9-4CCD-B984-403C4E89FE7D}.Release|iPhone.Build.0 = Release|iPhone
+		{ACB876A1-1DE9-4CCD-B984-403C4E89FE7D}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{ACB876A1-1DE9-4CCD-B984-403C4E89FE7D}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal

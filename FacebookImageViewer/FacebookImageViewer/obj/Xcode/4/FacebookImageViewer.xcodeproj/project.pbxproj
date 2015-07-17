@@ -1,0 +1,250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30713C850000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 340249230000000000000000 /* UIKit.framework */; };
+		1206DFB80000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1597EC560000000000000000 /* MapKit.framework */; };
+		273A48500000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACB54EE0000000000000000 /* Foundation.framework */; };
+		1AA52A990000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E3637370000000000000000 /* CoreGraphics.framework */; };
+		92D90BE00000000000000000 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE9D5C00000000000000000 /* Images.xcassets */; };
+		1E60F9560000000000000000 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21F205F40000000000000000 /* LaunchScreen.xib */; };
+		C8BBA4000000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 101CC6DE0000000000000000 /* Info.plist */; };
+		BF0898C00000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32F9313A0000000000000000 /* Entitlements.plist */; };
+		85F7CEE00000000000000000 /* ImageViewer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 368A3DD80000000000000000 /* ImageViewer.xib */; };
+		4CE705000000000000000000 /* ImageViewerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A1B4A760000000000000000 /* ImageViewerViewController.xib */; };
+		13D63B200000000000000000 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DAC57140000000000000000 /* image.jpg */; };
+		1A01D8E80000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 3D7973F80000000000000000 /* AppDelegate.h */; };
+		1670CC4A0000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A809600000000000000000 /* AppDelegate.m */; };
+		12DFBFAC0000000000000000 /* ImageViewerViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 49B8D3400000000000000000 /* ImageViewerViewController.h */; };
+		F4EB30E00000000000000000 /* ImageViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C99D200000000000000000 /* ImageViewerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		281328440000000000000000 /* FacebookImageViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "FacebookImageViewer.app"; path = "FacebookImageViewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		340249230000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		1597EC560000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		2ACB54EE0000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		1E3637370000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		CBE9D5C00000000000000000 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Images.xcassets"; path = "Images.xcassets"; sourceTree = "<group>"; };
+		21F205F40000000000000000 /* LaunchScreen.xib */ = {isa = PBXFileReference; name = "LaunchScreen.xib"; path = "LaunchScreen.xib"; sourceTree = "<group>"; };
+		101CC6DE0000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		32F9313A0000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		368A3DD80000000000000000 /* ImageViewer.xib */ = {isa = PBXFileReference; name = "ImageViewer.xib"; path = "ImageViewer/ImageViewer.xib"; sourceTree = "<group>"; };
+		3A1B4A760000000000000000 /* ImageViewerViewController.xib */ = {isa = PBXFileReference; name = "ImageViewerViewController.xib"; path = "ImageViewerViewController.xib"; sourceTree = "<group>"; };
+		3DAC57140000000000000000 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "image.jpg"; path = "image.jpg"; sourceTree = "<group>"; };
+		3D7973F80000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		10A809600000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		49B8D3400000000000000000 /* ImageViewerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ImageViewerViewController.h"; path = "ImageViewerViewController.h"; sourceTree = "<group>"; };
+		82C99D200000000000000000 /* ImageViewerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ImageViewerViewController.m"; path = "ImageViewerViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39E8675A0000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30713C850000000000000000 /* UIKit.framework in Frameworks */,
+				1206DFB80000000000000000 /* MapKit.framework in Frameworks */,
+				273A48500000000000000000 /* Foundation.framework in Frameworks */,
+				1AA52A990000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A81B1BF0000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				1FDB44AC0000000000000000 /* FacebookImageViewer */,
+				3AD983620000000000000000 /* Frameworks */,
+				534D79900000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		534D79900000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				281328440000000000000000 /* FacebookImageViewer.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		3AD983620000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				340249230000000000000000 /* UIKit.framework */,
+				1597EC560000000000000000 /* MapKit.framework */,
+				2ACB54EE0000000000000000 /* Foundation.framework */,
+				1E3637370000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		1FDB44AC0000000000000000 /* FacebookImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				3D7973F80000000000000000 /* AppDelegate.h */,
+				32F9313A0000000000000000 /* Entitlements.plist */,
+				3DAC57140000000000000000 /* image.jpg */,
+				CBE9D5C00000000000000000 /* Images.xcassets */,
+				49B8D3400000000000000000 /* ImageViewerViewController.h */,
+				3A1B4A760000000000000000 /* ImageViewerViewController.xib */,
+				101CC6DE0000000000000000 /* Info.plist */,
+				21F205F40000000000000000 /* LaunchScreen.xib */,
+				A74F8F800000000000000000 /* ImageViewer */,
+				251B660B0000000000000000 /* Supporting Files */,
+			);
+			name = "FacebookImageViewer";
+			sourceTree = "<group>";
+		};
+		A74F8F800000000000000000 /* ImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				368A3DD80000000000000000 /* ImageViewer.xib */,
+			);
+			name = "ImageViewer";
+			sourceTree = "<group>";
+		};
+		251B660B0000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10A809600000000000000000 /* AppDelegate.m */,
+				82C99D200000000000000000 /* ImageViewerViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE7FD7300000000000000000 /* FacebookImageViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354190600000000000000000 /* Build configuration list for PBXNativeTarget "FacebookImageViewer" */;
+			buildPhases = (
+				BBDA67000000000000000000 /* Sources */,
+				39E8675A0000000000000000 /* Frameworks */,
+				16A3AF660000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FacebookImageViewer";
+			productName = "FacebookImageViewer";
+			productReference = 281328440000000000000000 /* FacebookImageViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2998BD080000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1A9B234D0000000000000000 /* Build configuration list for PBXProject "FacebookImageViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A81B1BF0000000000000000;
+			productRefGroup = 534D79900000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE7FD7300000000000000000 /* FacebookImageViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16A3AF660000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D90BE00000000000000000 /* Images.xcassets in Resources */,
+				1E60F9560000000000000000 /* LaunchScreen.xib in Resources */,
+				C8BBA4000000000000000000 /* Info.plist in Resources */,
+				BF0898C00000000000000000 /* Entitlements.plist in Resources */,
+				85F7CEE00000000000000000 /* ImageViewer.xib in Resources */,
+				4CE705000000000000000000 /* ImageViewerViewController.xib in Resources */,
+				13D63B200000000000000000 /* image.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBDA67000000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A01D8E80000000000000000 /* AppDelegate.h in Sources */,
+				1670CC4A0000000000000000 /* AppDelegate.m in Sources */,
+				12DFBFAC0000000000000000 /* ImageViewerViewController.h in Sources */,
+				F4EB30E00000000000000000 /* ImageViewerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BA434E20000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		3C22D1EB0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "FacebookImageViewer";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A9B234D0000000000000000 /* Build configuration list for PBXProject "FacebookImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA434E20000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		354190600000000000000000 /* Build configuration list for PBXNativeTarget "FacebookImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C22D1EB0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2998BD080000000000000000 /* Project object */;
+}
