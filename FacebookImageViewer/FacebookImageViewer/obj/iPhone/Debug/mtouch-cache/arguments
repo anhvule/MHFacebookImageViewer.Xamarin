@@ -1,0 +1,34 @@
+# Version: 8.10.3.2 (8b265d6)
+# [first argument, ignore] # /Users/vule/Documents/Workspace/MHFacebookImageViewer.Xamarin/FacebookImageViewer/FacebookImageViewer/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/8.10.3.2/bin/mtouch \
+	--cache \
+	/Users/vule/Documents/Workspace/MHFacebookImageViewer.Xamarin/FacebookImageViewer/FacebookImageViewer/obj/iPhone/Debug/mtouch-cache \
+	--dev \
+	/Users/vule/Documents/Workspace/MHFacebookImageViewer.Xamarin/FacebookImageViewer/FacebookImageViewer/bin/iPhone/Debug/FacebookImageViewer.app \
+	--executable \
+	FacebookImageViewer \
+	--debug \
+	--profiling \
+	--linksdkonly \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	8.4 \
+	--targetver \
+	7.1 \
+	--new-refcount \
+	--abi=armv7,arm64 \
+	--symbollist \
+	/Users/vule/Documents/Workspace/MHFacebookImageViewer.Xamarin/FacebookImageViewer/FacebookImageViewer/obj/iPhone/Debug/mtouch-symbols.list \
+	--dsym=no \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	/Users/vule/Documents/Workspace/MHFacebookImageViewer.Xamarin/FacebookImageViewer/FacebookImageViewer/bin/iPhone/Debug//FacebookImageViewer.exe \

@@ -1,0 +1,3 @@
+/Users/vule/Documents/Workspace/MHFacebookImageViewer.Xamarin/FacebookImageViewer/FacebookImageViewer/obj/iPhone/Debug/mtouch-cache/32/Link/Xamarin.iOS.dll
+/Users/vule/Documents/Workspace/MHFacebookImageViewer.Xamarin/FacebookImageViewer/FacebookImageViewer/obj/iPhone/Debug/mtouch-cache/32/Link/FacebookImageViewer.exe
+/Users/vule/Documents/Workspace/MHFacebookImageViewer.Xamarin/FacebookImageViewer/FacebookImageViewer/obj/iPhone/Debug/mtouch-cache/32/Link/mscorlib.dll
